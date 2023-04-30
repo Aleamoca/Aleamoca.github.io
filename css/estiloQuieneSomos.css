@@ -1,0 +1,43 @@
+body {
+    background: #f9f9fa;
+}
+
+
+p{
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-family: 'sans-serif';
+    color:#020202;    
+}
+
+/*Imagen encabezado pagina*/
+a img {
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+
+
+.container {
+display: grid;
+grid-template-columns: repeat(2, minmax(400px, 600px));
+grid-template-rows: repeat(2, 1fr);
+gap: 5px;
+}
+
+.item {
+background: black;
+color: white;
+padding: 1em;
+}
+
+.niñosyabuelos.png{
+        width: 100px; /* cambiar el valor según sea necesario */
+        height: auto; /* mantener la proporción de la imagen */
+    
+}
